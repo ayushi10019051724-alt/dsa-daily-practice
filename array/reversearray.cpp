@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-void reversearray(vector<int> &arr ,int n){
+void reversearray(vector<int> &arr, int n){
     int st=0, ed=n-1;
     while(st<=ed){
         swap(arr[st],arr[ed]);
@@ -20,5 +20,4 @@ int main(){
     int n=arr.size();
     reversearray(arr,n);
     printarr(arr,n);
-
 }
