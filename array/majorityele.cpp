@@ -53,8 +53,8 @@ int majorityEle(int arr[],int n){
     return -1;
 }
 int main(){
-    int arr[]={1,2,3,4,5,6,8,5,3,2,1,2,3,4,5,2};
-    int n=16;
+    int arr[]={1,2,0,2,2};
+    int n=5;
     int res=majorityEle(arr,n);
     cout<<res<<" ";
 
